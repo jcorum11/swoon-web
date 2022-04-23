@@ -9,8 +9,6 @@ import { initializeApp } from '@firebase/app'
 import { Provider } from 'react-redux'
 import { store } from './app/store'
 
-console.log(process.env.REACT_APP_SENTRY_API_KEY)
-
 // Initialize Firebase
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
